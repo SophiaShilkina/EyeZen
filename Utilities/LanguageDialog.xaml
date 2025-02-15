@@ -1,0 +1,9 @@
+﻿<Window x:Class="EyeZen.Utilities.LanguageDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Выберите язык / Choose Language" Height="200" Width="300">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Button Content="Русский" Click="Russian_Click" Width="100" Margin="0,10"/>
+        <Button Content="English" Click="English_Click" Width="100" Margin="0,10"/>
+    </StackPanel>
+</Window>

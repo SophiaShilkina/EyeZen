@@ -1,0 +1,48 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="AppTitle" xml:space="preserve">
+    <value>EyeZen</value>
+  </data>
+  <data name="StartButton" xml:space="preserve">
+    <value>Start Reminders</value>
+  </data>
+  <data name="StopButton" xml:space="preserve">
+    <value>Stop Reminders</value>
+  </data>
+  
+  <data name="WarmUpNotificationTitle" xml:space="preserve">
+    <value>Time for eye exercises!</value>
+  </data>
+  <data name="WarmUpNotification1" xml:space="preserve">
+    <value>Look into the distance for 20 seconds. Try to blink more often.</value>
+  </data>
+  <data name="WarmUpNotification2" xml:space="preserve">
+    <value>Close your eyes. Rotate them one way and the other.</value>
+  </data>
+  
+  <data name="RestNotificationTitle" xml:space="preserve">
+    <value>Time to let your eyes rest!</value>
+  </data>
+  <data name="RestNotification1" xml:space="preserve">
+    <value>Cover your eyes with your palms and relax. Stay in this position for a few minutes.</value>
+  </data>
+  <data name="RestNotification2" xml:space="preserve">
+    <value>Take a 5-minute break. Get up, stretch, drink some water, or make yourself some hot tea.</value>
+  </data>
+</root>

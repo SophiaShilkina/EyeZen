@@ -1,0 +1,48 @@
+﻿<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="xml:space" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <data name="AppTitle" xml:space="preserve">
+    <value>EyeZen</value>
+  </data>
+    <data name="StartButton" xml:space="preserve">
+    <value>Запустить напоминания</value>
+  </data>
+    <data name="StopButton" xml:space="preserve">
+    <value>Остановить напоминания</value>
+  </data>
+
+    <data name="WarmUpNotificationTitle" xml:space="preserve">
+    <value>Время для разминки глаз!</value>
+  </data>
+    <data name="WarmUpNotification1" xml:space="preserve">
+    <value>Посмотрите вдаль на 20 секунд. Старайтесь чаще моргать.</value>
+  </data>
+    <data name="WarmUpNotification2" xml:space="preserve">
+    <value>Закройте глаза. Повращайте их в одну и в другую сторону.</value>
+  </data>
+
+    <data name="RestNotificationTitle" xml:space="preserve">
+    <value>Время дать глазам отдохнуть!</value>
+  </data>
+    <data name="RestNotification1" xml:space="preserve">
+    <value>Накройте глаза ладонями (пальмами) и расслабьтесь. Оставайтесь в таком положении несколько минут.</value>
+  </data>
+    <data name="RestNotification2" xml:space="preserve">
+    <value>Сделайте 5 минутный перерыв. Встаньте, потянитесь, попейте воды или сделайте себе горячий чай.</value>
+  </data>
+</root>
